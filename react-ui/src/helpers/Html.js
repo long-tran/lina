@@ -41,6 +41,7 @@ export default class Html extends Component {
                   rel="stylesheet" type="text/css" charSet="UTF-8"/>
           )}
 
+          <link id="beyond-link" href="/css/beyond.min.css" rel="stylesheet" />
           {/* (will be present only in development mode) */}
           {/* outputs a <style/> tag with all bootstrap styles + App.scss + it could be CurrentPage.scss. */}
           {/* can smoothen the initial style flash (flicker) on page load in development mode. */}
